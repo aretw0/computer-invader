@@ -30,7 +30,7 @@ function love.load(arg)
   -- declaração da tabela game e suas variáveis
   game = {} 
   game.state = 0 -- 0 para inicio, 1 para em progresso, 2 para fim do jogo
-  game.over = false // Saber se o fim do jogo foi por perca
+  game.over = false -- Saber se o fim do jogo foi por perca
   
   hero = {} -- nova tabela para o herói
   -- x,y coordenadas do heroi
@@ -200,8 +200,10 @@ function love.draw()
   if (game.state == 0) then 
     love.graphics.setColor(255,255,255,255)
     love.graphics.setFont(fontGame)
-    love.graphics.print("Presione Enter para começar", 170, 250)
-    love.graphics.print("[ Atirar ] / <- Controle -> ", 170, 280)
+    love.graphics.print("Presione Enter para começar", 170, 200)
+    love.graphics.print("Barra de espaço (Atirar)", 170, 290)
+    love.graphics.print("Esquerda / Direita (Controle da Nave)", 170, 320)
+    love.graphics.print("R (Reiniciar)", 170, 370)
   end
   
   -- Mensagens
