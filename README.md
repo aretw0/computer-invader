@@ -1,5 +1,5 @@
-# space_invader
-Jogo em LUA utilizando framework LÖVE
+# Computer Invader
+Jogo estilo Space Invaders feito na linguagem LUA utilizando framework LÖVE.
 
 Para contribuições indico utilizar a ZeroBrane Studio IDE (https://studio.zerobrane.com/) com o LÖVE (https://love2d.org/) instalado.
 
